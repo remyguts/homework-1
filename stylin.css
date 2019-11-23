@@ -28,15 +28,36 @@ body{
 display: flex;
 flex-direction: column;
 justify-content: space-between;
-background-image: url(C:\Users\rguts\UW-Code-Boot-Camp\homework-1\hotel-wallpaper-black.png);}
+}
+#aboutthisguy {display: flex;
+    justify-content: left;
 
+}
 .backcontain {
 display: flex;
 justify-content: center;
-background-color: grey;
+background-image: url('hotel-wallpaper-black.png');
+;
 height: 90%;
-margin: 20px;
+margin: 100px;
+margin-top: 0px;
+margin-bottom: 0px;
 }
+.contactcontain {
+
+background-color: white;
+}
+
+.containcontain {
+    
+background-color: white;
+margin:100px;
+margin-top: 0;
+margin-bottom:0
+
+
+}
+
 .portcontain {
 
     display: flex;
@@ -114,6 +135,9 @@ p {
     display: flex;
     flex-wrap:
 }
-footer {
+
+    .footer {
+        flex-shrink: 0;
+      
     border-top: 8px solid #4aaaa5;
 }
