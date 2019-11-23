@@ -1,0 +1,119 @@
+.header {
+    display: flex;
+    margin-top: 0px;
+    padding-top: 0%;
+    border-top-width: 0px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background-color: #ffffff;
+    border: 10px;
+    border-color: #cccccc;
+    border-bottom: 2px solid grey;
+    justify-content: space-between;
+    flex-direction: row;
+color:white;
+height: 80px;
+}
+
+h2{
+    text-align: center;
+}
+nav {
+    color:grey;
+    background-color: #ffffff;
+    height: 80px;
+
+}
+
+body{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+background-image: url(C:\Users\rguts\UW-Code-Boot-Camp\homework-1\hotel-wallpaper-black.png);}
+
+.backcontain {
+display: flex;
+justify-content: center;
+background-color: grey;
+height: 90%;
+margin: 20px;
+}
+.portcontain {
+
+    display: flex;
+width: 80%;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+
+.weird {
+
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    object-fit: cover;
+    
+}
+
+
+h3 {
+    background-color: #4aaaa5;
+    color: white;
+    position: relative;
+    bottom: -200px;
+    text-align: center;
+}
+
+img {
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover; 
+}
+
+nav ul li {
+
+    list-style-type: none;
+    width: 150px;
+    display: inline;
+    border-right: 1px solid grey 
+}
+
+li a {
+
+    text-decoration: none;
+    line-height: 50px;
+    display: block;
+}
+
+#remy {
+    color: white;
+background-color: #4aaaa5;
+width: 200px;
+height: 80px;
+}
+
+
+
+body {
+    background-color:#ffffff ;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 0px;
+    }
+
+
+form {
+display: flex;
+flex-direction: column;
+
+
+}
+
+p {
+
+    display: flex;
+    flex-wrap:
+}
+footer {
+    border-top: 8px solid #4aaaa5;
+}
